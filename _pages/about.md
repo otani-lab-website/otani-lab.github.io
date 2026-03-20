@@ -2,16 +2,17 @@
 layout: about
 title: ホーム
 permalink: /home/
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 東京都立大学　理学部　生命科学科<br>東京都立大学大学院　理学研究科　生命科学専攻
 
 profile:
-  align: right
+  <p align: center>
+    <img src= /image/prof_pic.jpg width="600">
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>〒192-0397</p>
+    <p>東京都八王子市南大沢1-1</p>
+    <p>東京都立大学　南大沢キャンパス　9号館514,515号室</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -21,7 +22,7 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
+Recent publications:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
