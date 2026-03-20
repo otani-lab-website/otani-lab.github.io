@@ -1,7 +1,7 @@
 ---
 layout: about
-title: about
-permalink: /
+title: ホーム
+permalink: /home/
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
