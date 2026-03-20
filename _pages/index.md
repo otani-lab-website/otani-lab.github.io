@@ -1,12 +1,11 @@
 ---
-layout: index
+layout: about
 title: ホーム
 permalink: /
 subtitle: 東京都立大学　理学部　生命科学科<br>東京都立大学大学院　理学研究科　生命科学専攻
 
-profile:
-  <p align: center>
-    <img src= /image/prof_pic.jpg width="600">
+profile: 
+  align: center
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
