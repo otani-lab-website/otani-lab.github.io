@@ -1,7 +1,7 @@
 ---
 layout: index
 title: ホーム
-permalink: /home/
+permalink: /
 subtitle: 東京都立大学　理学部　生命科学科<br>東京都立大学大学院　理学研究科　生命科学専攻
 
 profile:
