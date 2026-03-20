@@ -28,6 +28,39 @@ Recent publications:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<div class="slideshow">
+  <img class="slide" src="/images/img1.jpg">
+  <img class="slide" src="/images/img2.jpg">
+  <img class="slide" src="/images/img3.jpg">
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide");
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // 3秒ごと
+}
+</script>
+
+<style>
+.slideshow {
+  text-align: center;
+}
+.slide {
+  width: 70%;
+  display: none;
+}
+</style>
+
+
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
